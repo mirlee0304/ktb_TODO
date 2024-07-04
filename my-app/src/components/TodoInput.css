@@ -1,0 +1,21 @@
+input[type="text"].itemInput {
+    width: calc(100% - 70px);
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button.addButton {
+    padding: 5px;
+    background-color: #0070f3;
+    color: white;
+    border: 1px solid #0070f3;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  button.addButton:hover {
+    background-color: #fff;
+    color: #0070f3;
+  }
+  
