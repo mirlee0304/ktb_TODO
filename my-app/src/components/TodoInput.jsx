@@ -23,7 +23,7 @@ function TodoInput({ addTodo }) {
         <form onSubmit={handleSubmit}>
             <input 
                 type="text" 
-                value={inputValue} 
+                value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)} 
             />
             <button type="submit">Add Todo</button>
